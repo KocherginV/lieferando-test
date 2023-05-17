@@ -43,4 +43,27 @@ This can be done in two ways (pulling repo needs to be done beforehand):
  * By having Playwright VSCode [extention](https://playwright.dev/docs/getting-started-vscode) installed
  * By executing CLI command `npx playwright test` inside of project's folder
 
-If you run tests using CLI command, browser page with results will be opened automatically when tests are executed. If you used VSCode extention, results would be displayed directly in IDE. 
+If you run tests using CLI command, browser page with results will be opened automatically when tests are executed. If you used VSCode extention, results would be displayed directly in the IDE. 
+
+
+### Part 2:
+Part 2
+The Backend portion is just as vital, and also requires automated testing as part of the software
+development. Please create automation tests for CRUD operations from the link below:
+https://restful-booker.herokuapp.com/apidoc/index.html
+
+### Solution & Explanation:
+`api` folder contains implementation of API tests. It utilizes [TypeScript](https://www.typescriptlang.org/), [Axios](https://axios-http.com/), and [Jest](https://jestjs.io/) for a powerful and efficient testing solution.
+
+TypeScript adds static typing to JavaScript, improving code quality and developer productivity. Axios is a popular HTTP client library that simplifies API communication. Jest is a feature-rich testing framework for unit testing and automation.
+
+With TypeScript, Axios, and Jest, this implementation delivers a comprehensive and reliable testing solution, enabling efficient development and ensuring high-quality software.
+
+It was decided as a Minimum Viable Product solution just to automate CRUD operations based on endpoints, without going to detailed validation and/or edge cases, that could be implemented, especially considering relativly low cost of API tests.
+
+### How to run tests:
+This can be done in two ways (pulling repo needs to be done beforehand):
+ * By having Jest VSCode [extention](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) installed
+ * By executing CLI command `npx jest` inside of project's folder
+
+If you run tests using CLI command, test results would be displayed in the CLI. If you used VSCode extention, results would be displayed directly in the IDE. 
