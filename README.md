@@ -53,7 +53,7 @@ development. Please create automation tests for CRUD operations from the link be
 https://restful-booker.herokuapp.com/apidoc/index.html
 
 ### Solution & Explanation:
-`api` folder contains implementation of API tests. It utilizes [TypeScript](https://www.typescriptlang.org/), [Axios](https://axios-http.com/), and [Jest](https://jestjs.io/) for a powerful and efficient testing solution.
+`api` folder inside of `src` contains implementation of API tests. It utilizes [TypeScript](https://www.typescriptlang.org/), [Axios](https://axios-http.com/), and [Jest](https://jestjs.io/) for a powerful and efficient testing solution.
 
 TypeScript adds static typing to JavaScript, improving code quality and developer productivity. Axios is a popular HTTP client library that simplifies API communication. Jest is a feature-rich testing framework for unit testing and automation.
 
