@@ -1,0 +1,33 @@
+{
+  "user": {
+    "firstname": "James",
+    "lastname": "Johnes",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2023-01-01",
+      "checkout": "2023-05-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "updatedUser": {
+    "firstname": "Jonny",
+    "lastname": "James",
+    "totalprice": 298,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2023-05-05",
+      "checkout": "2023-12-10"
+    },
+    "additionalneeds": ["Breakfast", "Lunch", "Drinks"]
+  },
+  "partiallyUpdatedUser": {
+    "totalprice": 500, 
+    "depositpaid": true, 
+    "additionalneeds": null,
+    "bookingdates": {
+      "checkin": "2023-10-05",
+      "checkout": "2023-12-10"
+    }
+  }
+}
